@@ -1,0 +1,40 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f0f0" rx="10" ry="10"/>
+  
+  <!-- Window title bar -->
+  <rect x="10" y="10" width="380" height="30" fill="#e0e0e0" rx="5" ry="5"/>
+  <text x="20" y="30" font-family="Arial" font-size="14" fill="#333333">Máy Tính Đơn Giản</text>
+  
+  <!-- Main content area -->
+  <rect x="20" y="50" width="360" height="230" fill="#ffffff" rx="5" ry="5" stroke="#cccccc" stroke-width="1"/>
+  
+  <!-- First number input -->
+  <text x="40" y="80" font-family="Arial" font-size="14" fill="#333333">Số thứ nhất:</text>
+  <rect x="150" y="65" width="150" height="25" fill="#ffffff" stroke="#999999" stroke-width="1" rx="3" ry="3"/>
+  <text x="160" y="83" font-family="Arial" font-size="14" fill="#666666">42</text>
+  
+  <!-- Second number input -->
+  <text x="40" y="120" font-family="Arial" font-size="14" fill="#333333">Số thứ hai:</text>
+  <rect x="150" y="105" width="150" height="25" fill="#ffffff" stroke="#999999" stroke-width="1" rx="3" ry="3"/>
+  <text x="160" y="123" font-family="Arial" font-size="14" fill="#666666">8</text>
+  
+  <!-- Operation buttons -->
+  <rect x="70" y="150" width="40" height="30" fill="#4CAF50" rx="5" ry="5"/>
+  <text x="85" y="170" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">+</text>
+  
+  <rect x="130" y="150" width="40" height="30" fill="#2196F3" rx="5" ry="5"/>
+  <text x="145" y="170" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">-</text>
+  
+  <rect x="190" y="150" width="40" height="30" fill="#FFC107" rx="5" ry="5"/>
+  <text x="205" y="170" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">×</text>
+  
+  <rect x="250" y="150" width="40" height="30" fill="#FF5722" rx="5" ry="5"/>
+  <text x="265" y="170" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">÷</text>
+  
+  <!-- Result display -->
+  <text x="40" y="210" font-family="Arial" font-size="16" font-weight="bold" fill="#333333">Kết quả: 5.25</text>
+  
+  <!-- Instructions -->
+  <text x="200" y="250" font-family="Arial" font-size="12" fill="#999999" text-anchor="middle">Nhập hai số tự nhiên và chọn phép tính</text>
+</svg>
